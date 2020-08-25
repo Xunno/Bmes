@@ -9,6 +9,11 @@ namespace Bmes.Models.Product
         public string Description { get; set; }
         public string MetaDescription { get; set; }
         public string MetaKeywords { get; set; }
+<<<<<<< HEAD
         public BrandStatus { get; set; }
 }
+=======
+        public BrandStatus BrandStatus { get; set; }
+    }
+>>>>>>> c49c934f5cc3bc4b03bb2f80a1e88009378b09ac
 }
